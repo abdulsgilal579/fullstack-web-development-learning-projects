@@ -21,8 +21,32 @@ Each project focuses on improving problem-solving skills, understanding core con
 - Step-by-step learning path
 
 ## How to run
-```Install Dependencies Using: npm install.```
-```Install Nodemon dependency globally: npm install -g nodemon.```
-```Change directory using cd <directory name> to the project you want to run.```
-```Now run this command: npx nodemon app.js ```
-```You are all set!```
+## 🚀 Installation & Running the Project
+
+Follow these steps to set up and run the project:
+
+1. **Install all dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Install Nodemon globally (optional but recommended):**
+   ```bash
+   npm install -g nodemon
+   ```
+
+3. **Navigate to the project directory you want to run:**
+   ```bash
+   cd <directory-name>
+   ```
+
+4. **Run the project using Nodemon:**
+   ```bash
+   npx nodemon app.js
+   ```
+
+5. **You're all set! 🎉**
+   Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
