@@ -1,6 +1,25 @@
-# fullstack-web-development-learning-projects
-A collection of hands-on projects built while learning full-stack web development.
+# Fullstack Web Development Learning Projects
 
-This repository includes various experiments and practice apps created using Node.js, Express.js, Next.js, EJS, HTML, CSS, JavaScript, and more. Each project is designed to explore different concepts, improve problem-solving skills, and gain practical experience in building modern web applications.
+A collection of small, hands-on projects created while learning **full-stack web development**.  
+This repository contains practice apps built using:
 
-Whether you're learning alongside me or just exploring, this repo serves as a growing archive of my journey into full-stack development.
+- **Node.js**
+- **Express.js**
+- **Next.js**
+- **EJS**
+- **HTML**, **CSS**, **JavaScript**
+- And more...
+
+Each project focuses on improving problem-solving skills, understanding core concepts, and building real-world web apps step by step.
+
+---
+
+## 🚀 Features
+- Beginner-friendly project structures
+- Practice for both **frontend** and **backend** development
+- Clean, readable code with comments
+- Step-by-step learning path
+
+---
+
+## 🗂 Project Structure
