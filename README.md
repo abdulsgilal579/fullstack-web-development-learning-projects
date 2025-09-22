@@ -20,6 +20,9 @@ Each project focuses on improving problem-solving skills, understanding core con
 - Clean, readable code with comments
 - Step-by-step learning path
 
----
-
-## 🗂 Project Structure
+## How to run
+```Install Dependencies Using: npm install.```
+```Install Nodemon dependency globally: npm install -g nodemon.```
+```Change directory using cd <directory name> to the project you want to run.```
+```Now run this command: npx nodemon app.js ```
+```You are all set!```
