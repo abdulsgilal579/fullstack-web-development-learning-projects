@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <style>
+      /* ====== Global Styles ====== */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #009342;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        margin: 15px 0;
+        font-size: 1.2rem;
+      }
+
+      .highlight {
+        color: #009342;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #009342;
+        color: #fff;
+        border-radius: 8px;
+        transition: background 0.3s ease;
+      }
+
+      .back-link:hover {
+        background-color: #007b38;
+      }
+
+      .result-container {
+        max-width: 500px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="result-container">
+      <h1>Your Result</h1>
+
+      <h3>
+        Total Marks:
+        <span class="highlight"><%= totalMarks %></span>
+      </h3>
+
+      <h3>
+        Obtained Marks:
+        <span class="highlight"><%= obtainedMarks %></span>
+      </h3>
+
+      <h3>
+        Percentage:
+        <span class="highlight"><%= percentage %>%</span>
+      </h3>
+
+      <a href="/" class="back-link">Go Back To Home Page</a>
+    </div>
+  </body>
+</html>

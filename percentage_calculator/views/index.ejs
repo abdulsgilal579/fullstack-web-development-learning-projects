@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Checkbox Count</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      /* ===== Global Styles ===== */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 400px;
+        width: 100%;
+        background: #fff;
+        padding: 25px 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      h1 {
+        color: #009342;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+      }
+
+      input[type='number'] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+        margin-bottom: 15px;
+        outline: none;
+        transition: border-color 0.3s ease;
+      }
+
+      input[type='number']:focus {
+        border-color: #009342;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #009342;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #007b38;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Percentage Calculator</h1>
+      <form action="/generate" method="POST">
+        <p>How many subjects are there in this semester?</p>
+        <input
+          type="number"
+          name="numCheckboxes"
+          id="numCheckboxes"
+          min="1"
+          value="1"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
